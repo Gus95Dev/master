@@ -95,7 +95,7 @@ class ViewController: UIViewController {
         self.view.endEditing(true)
     }
     
-    
+    //quince%
     @IBAction func quincePorciento(_ sender: UIButton) {
         guard let totalsinpropina = totalSinPropina.text else {return}
         guard let nodecomensales = noDeComensales.text else {return}
